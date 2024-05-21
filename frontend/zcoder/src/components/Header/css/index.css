@@ -35,7 +35,6 @@ header {
   .header-left > a > img:hover {
     background-color: #ddd;
     cursor: pointer;
-    padding: 10px 0px;
   }
   
   .header-left > h3 {
