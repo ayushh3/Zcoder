@@ -22,17 +22,8 @@ function App() {
         </Routes>
       </Router>
     </div>
-    <Router>
-      <div>
-        <Routes>
-          <Route path="/chatRoom" element={<ChatRoom />} />
-        </Routes>
-      </div>
-    </Router>
   );
 }
 
 export default App;
-
-
 
