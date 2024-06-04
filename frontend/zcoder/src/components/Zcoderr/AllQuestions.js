@@ -23,7 +23,7 @@ function AllQuestions() {
           </div>
         </div>
         <div className="question-answer">
-          <NavLink>Whats up how you doing?</NavLink>
+          <NavLink to = '/question'>Whats up how you doing?</NavLink>
               <div
             style={{
               width: "90%",

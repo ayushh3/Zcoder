@@ -8,6 +8,9 @@ import {
   Navigate,
 } from 'react-router-dom';
 
+import Question from './components/Add-Question/Question'
+import ViewQuestion from './components/ViewQuestion'
+
 import Zcoderr from './components/Zcoderr';
 
 function App() {
@@ -16,6 +19,8 @@ function App() {
       <Router>
         <Header/>
         <Routes>
+          <Route path="/add-question" element={<Question />} />
+          <Route path="/question" element={<ViewQuestion />} />
           <Route path="/" element={<Zcoderr />} />
         </Routes>
       </Router>
