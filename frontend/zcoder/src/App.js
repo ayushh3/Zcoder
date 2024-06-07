@@ -14,7 +14,7 @@ import ViewQuestion from './components/ViewQuestion'
 
 import Zcoderr from './components/Zcoderr';
 import ChatRoom from './components/ChatRoom';
-import Auth from './components/Auth';
+import Auth from './components/auth';
 import {useSelector,useDispatch} from "react-redux";
 import { useEffect } from 'react';
 import {selectUser,login,logout} from "./feature/userSlice";
